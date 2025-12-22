@@ -1,0 +1,13 @@
+.header{
+    background-color: rgba(0, 0, 0, 0.844);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px 25px 20px;
+    border-bottom: 2px solid rgba(170, 158, 158, 0.081);
+}
+.navs ul{
+     display: flex;
+     gap: 40px;
+     margin-top: 10px;
+}

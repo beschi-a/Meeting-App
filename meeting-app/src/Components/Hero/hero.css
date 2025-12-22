@@ -1,0 +1,24 @@
+.card-sec{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.844);
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+.cards{
+    background-color: rgb(226, 166, 3);
+    height: 200px;
+    border-radius: 20px;
+    padding: 40px;
+}
+.cards h3{
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
+.cards p{
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+}
