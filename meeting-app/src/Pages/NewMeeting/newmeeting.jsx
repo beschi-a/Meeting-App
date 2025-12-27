@@ -18,12 +18,10 @@ function NewMeeting() {
         })
     }
 
-    const meetinglink = 'https://connectify.app/meet/connectify-839-234'
 
     function handleCopyLink() {
-        navigator.clipboard.writeText(meetinglink)
         setCopylink(true)
-        setTimeout(() => setCopylink(false), 2000)
+        setTimeout(() => setCopylink(false), 3000)
     }
     return (
         <div className="newmeeting-page">

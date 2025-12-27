@@ -106,9 +106,7 @@
 .social-item span {
   font-size: 14px;
   color: #0f172a;
-  white-space: nowrap;
   opacity: 0;
-  transform: translateX(-6px);
   transition: all 0.25s ease;
   pointer-events: none;
 }
@@ -119,7 +117,7 @@
 
 .social-item:hover span {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateY(2px);
 }
 
 
